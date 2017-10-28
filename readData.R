@@ -2,4 +2,4 @@
 whales <- read.csv(file = '../data/bbmroData.csv')
 head(whales)
 
-# change something
+save(whales, file='C:/Users/kenady/myrepo/results/whaleData.RData')
